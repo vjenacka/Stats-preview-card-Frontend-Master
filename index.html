@@ -11,19 +11,49 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <!--    companies 314 templates 12m+ queries -->
 
-    <div class="attribution">
+    <section>
+      <div id="card">
+        <div id="card-description">
+          <h2>Get <span>insights</span> that help your business grow.</h2>
+          <p class="description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats-container">
+            <div class="stats">
+              <span>10k+</span>
+              <p>COMPANIES</p>
+            </div>
+            <div class="stats">
+              <span>314</span>
+              <p>TEMPLATES</p>
+            </div>
+            <div class="stats">
+              <span>12M+</span>
+              <p>QUERIES</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-img"></div>
+      </div>
+    </section>
+
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
