@@ -71,9 +71,23 @@ body {
   color: var(--stats-white);
   font-size: 0.8rem;
 }
-.card-img {
+
+.img-container {
+  position: relative;
   width: 50%;
-  background-image: url("./images/image-header-desktop.jpg");
-  background-size: cover;
-  background-position: center;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6a1b9a;
+  opacity: 0.45;
 }
