@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://vjenacka.github.io/Stats-preview-card-Frontend-Master/
 
 ## My process
 
@@ -39,5 +39,5 @@ Got to use variables with a purpose of specific design in mind provided by the p
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Stats preview card component](https://vjenacka.github.io/Stats-preview-card-Frontend-Master/)
 - Frontend Mentor - [@vjenacka](https://www.frontendmentor.io/profile/vjenacka)
