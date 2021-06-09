@@ -193,17 +193,36 @@ body {
 
 @media screen and (max-width: 375px) {
   #card {
-    height: 30vh;
-    margin: 35vh auto;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin: 10vh auto;
+  }
+  #card-description {
+    width: 100%;
+    order: 2;
+    padding: 1.2rem 1.2rem 1rem 0.8rem;
+  }
+  .img-container {
+    width: 100%;
+    height: 20vh;
+  }
+  #card-description {
+    text-align: center;
+  }
+  #card-description h2 {
+    font-size: 1.1rem;
   }
   .description {
-    margin: 1.8rem 0;
-    font-size: 0.3rem;
-  }
-  .stats span {
     font-size: 0.6rem;
+    margin: 1rem auto;
   }
-  .stats p {
-    font-size: 0.3rem;
+  .stats-container {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .stats-container p {
+    margin: 4px auto 18px auto;
+    font-size: 0.6rem;
   }
 }
